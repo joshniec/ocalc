@@ -2,25 +2,26 @@
 
 (name ocalc)
 
+(version 0.0.1)
+
 (generate_opam_files true)
 
 (source
- (github username/reponame))
+ (github joshniec/ocalc))
 
-(authors "Author Name")
+(authors "Josh Niec")
+(maintainers "Josh Niec <josh@niec.us>")
 
-(maintainers "Maintainer Name")
+(license MIT)
 
-(license LICENSE)
-
-(documentation https://url/to/documentation)
+(homepage https://github.com/joshniec/ocalc)
+(documentation https://github.com/joshniec/ocalc)
 
 (package
  (name ocalc)
- (synopsis "A short synopsis")
- (description "A longer description")
+ (synopsis "A CLI Calculator in OCaml")
+ (description "A CLI Calculator in OCaml")
  (depends ocaml dune)
  (tags
-  (topics "to describe" your project)))
+  (Calculator)))
 
-; See the complete stanza docs at https://dune.readthedocs.io/en/stable/dune-files.html#dune-project
